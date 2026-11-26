@@ -1,0 +1,51 @@
+        body {
+        font-family: "Open Sans", sans-serif;
+        }
+        /* 1文字分字下げする設定 */
+        .indent {
+            text-indent: 1em;        
+            margin: 0.3em;
+        }
+
+        /* キーワードと「論文かんたん紹介」共通の色・サイズ */
+        .paper-meta,
+        .intro-link {
+        font-size: 0.85em;
+        color: #666666;
+        }
+        /* キーワードの行設定 */
+        .paper-meta {
+        display: inline-block;
+        margin-top: 0;
+        }
+
+        /* 「論文かんたん紹介」のグレーの小さい文字リンク */
+        .intro-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        margin-top: 0;
+        font-size: 0.85em;
+        color: #666666;
+        text-decoration: none;
+        }
+
+        /* マウスを乗せたときに下線を出す */
+        .intro-link:hover {
+        text-decoration: underline;
+        }
+
+        /* 小さいプレビュー画像 */
+        .paper-preview {
+        max-width: 100px; /* 小さめの横幅に設定 */
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 4px;
+        border: 1px solid #dddddd;
+        }
+        /* 論文リストの各項目の下に余白を作る */
+        .paper-list li {
+        margin-bottom: 12px;
+        }
+        
